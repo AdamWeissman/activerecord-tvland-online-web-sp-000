@@ -7,7 +7,7 @@ describe Show do
   #  community = Show.create(:name => "Community", :day => "Thursday", :season => "Winter")
   #  expect(community.day).to eq("Thursday")
   #  expect(community.season).to eq("Winter")
-  end
+  #end
 
   it "has many characters in an array" do
     show.name = "The Simpsons"
